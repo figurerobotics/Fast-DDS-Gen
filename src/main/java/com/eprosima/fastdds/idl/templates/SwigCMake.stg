@@ -51,6 +51,7 @@ find_package(fastrtps REQUIRED)
 set(\${PROJECT_NAME}_FILES
     $it.name$.cxx
     $it.name$PubSubTypes.cxx
+    $it.name$TypeObject.cxx
     )
 
 include_directories()
